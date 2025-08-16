@@ -54,7 +54,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-background/20 mt-12 pt-8 text-center text-background/60">
-          <p>&copy; 2025 BrandLift. All rights reserved.</p>
+          <p>&copy; 2025 Brand All rights reserved.</p>
         </div>
       </div>
     </footer>
