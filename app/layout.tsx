@@ -27,7 +27,20 @@ html {
 }
         `}</style>
       </head>
-      <body>{children}</body>
+      <body>
+        {/* ✅ Header Text */}
+        <header className="p-4 bg-gray-900 text-white text-center">
+          🚀 Welcome to BrandLift!
+        </header>
+
+        {/* ✅ Page Content */}
+        {children}
+
+        {/* ✅ Footer Text */}
+        <footer className="p-4 bg-gray-900 text-white text-center">
+          © 2025 BrandLift. All rights reserved.
+        </footer>
+      </body>
     </html>
   )
 }
