@@ -43,11 +43,11 @@ export function Footer() {
               </div>
               <div className="flex items-center hover:text-background transition-colors cursor-pointer">
                 <Mail className="w-4 h-4 mr-2" />
-                <span></span>
+                <span>Pratikjain9109@gmail.com</span>
               </div>
               <div className="flex items-center hover:text-background transition-colors cursor-pointer">
                 <MapPin className="w-4 h-4 mr-2" />
-                <span>Indore, M.P</span>
+                <span>Indore, Madhya Pradesh</span>
               </div>
             </div>
           </div>
