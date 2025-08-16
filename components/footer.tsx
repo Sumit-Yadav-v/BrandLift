@@ -14,14 +14,14 @@ export function Footer() {
               We lift your brand to new heights with professional websites that convert visitors into customers. No
               commissions, full ownership, transparent pricing.
             </p>
-           /* 
+            { /* 
             <div className="flex space-x-4">
               <Facebook className="w-6 h-6 hover:text-primary transition-colors cursor-pointer hover:scale-110 transform duration-200" />
               <Twitter className="w-6 h-6 hover:text-primary transition-colors cursor-pointer hover:scale-110 transform duration-200" />
               <Instagram className="w-6 h-6 hover:text-primary transition-colors cursor-pointer hover:scale-110 transform duration-200" />
               <Linkedin className="w-6 h-6 hover:text-primary transition-colors cursor-pointer hover:scale-110 transform duration-200" />
             </div>
-            */
+            */}
           </div>
 
           <div>
