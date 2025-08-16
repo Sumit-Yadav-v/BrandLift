@@ -37,15 +37,15 @@ export function Footer() {
             <div className="space-y-3 text-background/80">
               <div className="flex items-center hover:text-background transition-colors cursor-pointer">
                 <Phone className="w-4 h-4 mr-2" />
-                <span>(555) 123-4567</span>
+                <span>+91-8349313762 </span>
               </div>
               <div className="flex items-center hover:text-background transition-colors cursor-pointer">
                 <Mail className="w-4 h-4 mr-2" />
-                <span>hello@brandlift.com</span>
+                <span></span>
               </div>
               <div className="flex items-center hover:text-background transition-colors cursor-pointer">
                 <MapPin className="w-4 h-4 mr-2" />
-                <span>123 Business St, City, State</span>
+                <span>Indore, M.P</span>
               </div>
             </div>
           </div>
