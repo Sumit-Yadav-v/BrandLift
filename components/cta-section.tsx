@@ -1,5 +1,6 @@
 "use client"
 
+import Link from "next/link";
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Phone, Mail } from "lucide-react"
 
@@ -19,17 +20,19 @@ export function CTASection() {
               size="lg"
               className="text-xl px-12 py-8 animate-glow hover:scale-105 transition-transform duration-300"
             >
-              Start Your Project Today
-              <ArrowRight className="ml-3 w-6 h-6" />
+                    <Link href="/contact">
+        Start Your Project Today
+        <ArrowRight className="ml-3 w-6 h-6 inline" />
+      </Link>
             </Button>
-            <Button
+{/*             <Button
               variant="outline"
               size="lg"
               className="text-xl px-12 py-8 hover:bg-muted transition-colors duration-300 bg-transparent"
             >
               Schedule a Call
               <Phone className="ml-3 w-6 h-6" />
-            </Button>
+            </Button> */}
           </div>
 
           <div className="flex flex-col sm:flex-row gap-8 justify-center items-center text-muted-foreground">
