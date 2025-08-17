@@ -20,7 +20,7 @@ export function CTASection() {
               size="lg"
               className="text-xl px-12 py-8 animate-glow hover:scale-105 transition-transform duration-300"
             >
-                    <Link href="/contact">
+                    <Link href="https://chat.whatsapp.com/I5CkMyjvfOFDx3tFDHFwk2?mode=ac_t">
         Start Your Project Today
         <ArrowRight className="ml-3 w-6 h-6 inline" />
       </Link>
