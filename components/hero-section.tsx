@@ -1,5 +1,6 @@
 "use client"
 
+import Link from "next/link";
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Sparkles, Zap, Star } from "lucide-react"
 import { useEffect, useState } from "react"
@@ -69,8 +70,10 @@ export function HeroSection() {
               size="lg"
               className="text-lg px-8 py-6 animate-glow hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl relative overflow-hidden group"
             >
+               <Link href="https://chat.whatsapp.com/I5CkMyjvfOFDx3tFDHFwk2?mode=ac_t">
               <span className="relative z-10">Start Your Project</span>
               <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
+                 </Link>
               <div className="absolute inset-0 bg-gradient-to-r from-primary to-accent opacity-0 group-hover:opacity-20 transition-opacity duration-300" />
             </Button>
             <Button
@@ -78,8 +81,10 @@ export function HeroSection() {
               size="lg"
               className="text-lg px-8 py-6 hover:bg-muted transition-all duration-300 bg-transparent border-2 hover:border-primary hover:text-primary hover:scale-105 shadow-md hover:shadow-lg"
             >
+              <Link href="https://quickshow.vercel.app/">
               View Our Work
               <Sparkles className="ml-2 w-4 h-4" />
+                </Link>
             </Button>
           </div>
 
