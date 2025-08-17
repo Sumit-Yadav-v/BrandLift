@@ -3,6 +3,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Check, Star } from "lucide-react"
+import Link from "next/link";
 
 const plans = [
   {
@@ -99,7 +100,9 @@ export function PricingSection() {
                   className={`w-full py-6 text-lg transition-all duration-300 hover:scale-105`}
                   variant={plan.popular ? "default" : "outline"}
                 >
+                   <Link href="https://chat.whatsapp.com/I5CkMyjvfOFDx3tFDHFwk2">
                   Get Started
+                     </Link>
                 </Button>
               </CardContent>
             </Card>
