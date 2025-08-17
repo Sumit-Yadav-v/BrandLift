@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Star } from "lucide-react"
 import { useState, useEffect } from "react"
 
-const testimonials = [
+const testimonials = [ {/*
   {
     name: "Sarah Johnson",
     role: "Restaurant Owner",
@@ -101,3 +101,4 @@ export function TestimonialsSection() {
     </section>
   )
 }
+*\]
