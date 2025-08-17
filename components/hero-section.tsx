@@ -72,8 +72,9 @@ export function HeroSection() {
             >
                <Link href="https://chat.whatsapp.com/I5CkMyjvfOFDx3tFDHFwk2?mode=ac_t">
               <span className="relative z-10">Start Your Project</span>
+                   </Link>
               <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
-                 </Link>
+               
               <div className="absolute inset-0 bg-gradient-to-r from-primary to-accent opacity-0 group-hover:opacity-20 transition-opacity duration-300" />
             </Button>
             <Button
@@ -83,8 +84,9 @@ export function HeroSection() {
             >
               <Link href="https://quickshow.vercel.app/">
               View Our Work
+                  </Link>
               <Sparkles className="ml-2 w-4 h-4" />
-                </Link>
+              
             </Button>
           </div>
 
